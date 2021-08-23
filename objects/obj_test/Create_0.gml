@@ -1,4 +1,4 @@
-pixel_size = 4;
+pixel_size = 5;
 
 game_width = display_get_width();
 game_height = display_get_height();
