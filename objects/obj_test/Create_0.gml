@@ -19,3 +19,4 @@ window_set_fullscreen(true);
 
 draw_set_color(c_white);
 x = 200;
+y = 200;

@@ -1,6 +1,5 @@
 if keyboard_check(vk_left) { x -= 4; }
 else if keyboard_check(vk_right) { x += 4; }
-
-if keyboard_check_pressed(ord("7")) {
-	show_debug_message(fps);
-}
+else if keyboard_check(vk_up) { y -= 4; }
+else if keyboard_check(vk_down) { y += 4; }
+else if keyboard_check(vk_escape) { game_end(); }
